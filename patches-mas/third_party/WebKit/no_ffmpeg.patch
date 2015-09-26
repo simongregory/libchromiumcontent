@@ -1,0 +1,13 @@
+diff --git a/Source/build/features.gypi b/Source/build/features.gypi
+index 92ab0ca..8374c04 100644
+--- a/Source/build/features.gypi
++++ b/Source/build/features.gypi
+@@ -67,7 +67,7 @@
+       # Mac OS X uses Accelerate.framework FFT by default instead of FFmpeg.
+       ['OS!="mac" and OS!="android"', {
+         'feature_defines': [
+-          'WTF_USE_WEBAUDIO_FFMPEG=1',
++          # 'WTF_USE_WEBAUDIO_FFMPEG=1',
+         ],
+       }],
+       ['OS=="android" and use_openmax_dl_fft!=0', {
