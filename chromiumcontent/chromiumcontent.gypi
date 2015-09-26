@@ -46,6 +46,9 @@
       }],
       ['mac_mas_build==1', {
         'media_use_ffmpeg': 0,
+        'defines': [
+          'MAS_BUILD',
+        ],
       }],
     ],
   },
